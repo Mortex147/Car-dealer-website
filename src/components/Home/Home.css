@@ -1,0 +1,80 @@
+:root {
+  --primaryColor: #7a63f1;
+  --secondaryColor: #ebe8fc;
+  --textcolor: #a3a3a3;
+  --greyColor: #f4f4f4;
+  --whitecolor: #f5f4fa;
+  --blackcolor: #434344;
+}
+
+.home {
+  padding-top: 8rem;
+}
+.home .secContainer {
+  padding: 0 1.5rem;
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+}
+.home .secContainer .homeText .homeSpan {
+  color: var(--textcolor);
+  font-weight: 400;
+  font-size: 25px;
+}
+.home .secContainer .homeText .homeTitle {
+  color: var(--blackcolor);
+  font-weight: 700;
+  font-size: 20px;
+}
+.home .secContainer .homeText .btns {
+  gap: 1.5rem;
+  justify-content: center;
+}
+.home .secContainer .homeText .btn {
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  color: var(--blackcolor);
+}
+.home .secContainer .homeText .btn:hover {
+  color: var(--whitecolor);
+  background: var(--primaryColor);
+}
+.home .secContainer .homeText .btn:nth-child(2):hover {
+  color: var(--whitecolor);
+  background: var(--textcolor);
+}
+.home .secContainer .homeImage {
+  margin: auto;
+  width: 100%;
+  max-width: 100%;
+}
+@media screen and (min-width: 520px) {
+  .home .secContainer .homeImage {
+    width: 80%;
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 770px) {
+  .home {
+    padding-top: 10rem;
+  }
+  .home .secContainer {
+    gap: 2.5rem;
+  }
+  .home .secContainer .homeImage {
+    max-width: 70%;
+  }
+}
+@media screen and (min-width: 996px) {
+  .home {
+    padding-top: 12rem;
+  }
+  .home .secContainer {
+    gap: 3rem;
+  }
+  .home .secContainer .homeImage {
+    max-width: 60%;
+  }
+}/*# sourceMappingURL=Home.css.map */

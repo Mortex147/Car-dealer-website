@@ -1,0 +1,71 @@
+:root {
+  --primaryColor: #7a63f1;
+  --secondaryColor: #ebe8fc;
+  --textcolor: #a3a3a3;
+  --greyColor: #f4f4f4;
+  --whitecolor: #f5f4fa;
+  --blackcolor: #434344;
+}
+
+.searsh {
+  padding: 2rem 0;
+  margin: 0 1.5rem; 
+
+  @media screen and (min-width: 520px) {
+    margin: 0 6rem; 
+  }
+
+  @media screen and (min-width: 770px) {
+    margin: 0 11rem; 
+  }
+
+  .title {
+    color: var(--blackcolor);
+    font-size: 22px;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.7rem;
+  }
+
+  .searshDiv {
+    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    @media screen and (min-width: 520px) {
+      grid-template-columns: 1fr 1fr; 
+    }
+
+    @media screen and (min-width: 770px) {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+
+    input {
+      border-radius: 10px;
+      border: 1px solid var(--secondaryColor);
+      padding: 5px 10px;
+      outline: none;
+      width: 100%;
+
+      &:focus {
+        border: none;
+        border: 1px solid var(--primaryColor);
+      }
+    }
+
+    .btn {
+      justify-content: center;
+      width: auto; 
+      max-width: 200px; 
+      align-self: center;
+      gap: 0.3rem;
+      padding: 10px 15px; 
+
+      .icon {
+        font-size: 15px;
+      }
+    }
+  }
+}
