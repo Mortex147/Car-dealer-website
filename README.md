@@ -1,9 +1,10 @@
-# React + Vite
-
-Frontend w/responsiveness Site de vente de voitures développé en React avec MongoDB
+# Frontend w/responsiveness Site de vente de voitures développé en React & Vite avec MongoDB
 
 
-![8](https://github.com/user-attachments/assets/1d90178d-3e03-49e0-a088-8fe722995aca)
-![7](https://github.com/user-attachments/assets/808b5f13-37e3-4ec5-8a7b-54c109107b8b)
-![6](https://github.com/user-attachments/assets/73027472-d2c6-4067-b889-c89481838953)
-![5](https://github.com/user-attachments/assets/10a9f4c9-14a4-443e-b88b-3f7147b9a00a)
+![7](https://github.com/user-attachments/assets/7bbf346f-4f63-440f-84d5-19c81d2ace37)
+![6](https://github.com/user-attachments/assets/65834677-3f8f-4a1a-b458-e0631794f13f)
+![5](https://github.com/user-attachments/assets/3419aef1-e7ba-47b0-bbb0-e008f710a06f)
+![8](https://github.com/user-attachments/assets/d88c8736-c209-4ccb-a1a4-82cc28358b84)
+
+
+
